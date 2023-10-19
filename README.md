@@ -7,5 +7,3 @@ El tema principal del sitio web es todo material relacionado a la adivinación, 
 
 ## Qué quiero transmitir
 Quiero crear una página web *sencilla* y *organizada* de información sobre tarot, astrología y otras prácticas místicas desde un punto de vista informativo y objetivo. Se usará exclusivamente como web de información dedicado al mismo.
-
-
