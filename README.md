@@ -15,7 +15,7 @@ La gama de color es crucial para un buen diseño web, ya que con ello se transmi
 Para la página web los colores que he decidido tomar son dos de la gama de color fría y una cálida para generar contraste. Todos los colores escogidos tienen una simbología y sensación cercana a la temática mística y espiritual del sitio web.
 Los colores y su significado son los siguientes:
 
-![#a35FFF](https://placehold.co/15x15/a35FFF/a35FFF.png) Orquídea: Calma, misterio, meditación (`#f03c15`)
+![#a35FFF](https://placehold.co/15x15/a35FFF/a35FFF.png) Orquídea: Calma, misterio, meditación (`#a35fff`)
 
 ![#4c60ff](https://placehold.co/15x15/4c60ff/4c60ff.png) Azul real: Paz, armonía (`#4c60ff`)
 
