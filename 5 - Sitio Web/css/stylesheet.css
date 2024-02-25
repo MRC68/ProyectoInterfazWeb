@@ -1,0 +1,352 @@
+/* ----------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@400;800&display=swap');
+
+/***************************************************/
+/******************** MYSTEKA **********************/
+/***************************************************/
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/background.png);
+    background-size: auto;
+}
+.contenedor-pagina {
+    position: relative;
+    min-height: 100vh;
+  }
+.contenedor-wrap {
+    padding-bottom: 50px;
+  }
+/* ----------------------------------------- */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    height: 110px;
+    background-color: #634298dc;
+}
+
+.header .deco {
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.deco .logo {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.deco .titulo {
+    margin: 0%;
+    margin-left: 15px;
+    text-align: center;
+}
+.titulo a, .titulo a:visited, .titulo a:hover, .titulo a:active{
+    text-decoration: none;
+    color: violet;
+}
+.deco .titulo h1 {
+    color: violet;
+    font-size: 65px;
+    margin: 0px;
+    cursor: pointer;
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+.deco .titulo h3 {
+    margin: 0px;
+    color: #e2a200;
+    font-family: 'Merryweather', serif;
+}
+/* ----------------------------------------- */
+.barra-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Merryweather', serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+/* ----------------------------------------- */
+.menu-hamburguesa {
+    visibility: hidden;
+}
+
+.contenido-desplegable {
+    display: none;
+    position: absolute;
+    background-color:  #634298dc;
+    width: 100%;
+    z-index: 1;
+}
+
+.contenido-desplegable ul {
+    padding: 0;
+    margin: 0;
+}
+
+.contenido-desplegable ul li {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+.contenido-desplegable ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Merryweather', serif;
+}
+.contenido-desplegable ul li:hover{
+    background-color:  #4e3478f3;
+}
+
+.toggle-menu {
+    visibility: hidden;
+    cursor: pointer;
+}
+/*-------------------------------------------*/
+/*CUERPO DE LA PÁGINA WEB*/
+/*-------------------------------------------*/
+.main-page{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 2%;
+    font-family: 'Merryweather', sans-serif;
+    width: 100%;
+}
+/*-------------------------------------------*/
+.latest-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 15px;
+}
+.status {
+    border: black 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    background: linear-gradient(180deg, #020024 1%, #270375 50%);
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    margin-top: 2em;
+    background: linear-gradient(180deg, #020024 1%, #270375 50%);
+}
+.status h2, .news h2{
+    font-weight: bold;
+    font-style: italic;
+}
+.news a{
+    margin-top: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*-------------------------------------------*/
+.main-article{
+    border: black 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: linear-gradient(180deg, #020024 0%, #270375 50%);
+    color: #fff;
+    margin-right: 15px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.main-article a{
+    text-decoration: none;
+    color: goldenrod;
+}
+/* ----------------------------------------- */
+.tarot-info{
+    border: black 2px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    background: linear-gradient(180deg, #020024 1%, #270375 50%);
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    margin-left: 15px;
+}
+.grill-cartas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.carta{
+    width: calc(80% / 3);
+    margin: 1% auto;
+    text-align: center;
+    color: goldenrod;
+}
+.carta h2 a, .carta a:visited, .carta a:hover, .carta a:active{
+    text-decoration: none;
+    color: goldenrod;
+}
+/*-------------------------------------------*/
+/*PIE DE PÁGINA Y LEGAL*/
+/*-------------------------------------------*/
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: darkslateblue;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.legal {    
+    position: fixed;
+    bottom: 50px;
+    background-color: #41247bc9;
+    color: goldenrod;
+    width: 100%;
+    text-align: center;
+}
+.legal button{
+    color: goldenrod;
+    background-color: #350f85;
+    border: 1px solid goldenrod;
+    font-weight: bold;
+}
+.cookies{
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 20%;
+    background-color: #17063a;
+    color: #fff;
+    z-index: 99999;
+    height: auto;
+    width: 50%;
+    left: 22.5%;
+    padding: 2%;
+    font-size: 30px;
+    border: 1px solid goldenrod;
+}
+.aceptarcookies{
+    color: goldenrod;
+    background-color: #350f85;
+    border: 1px solid goldenrod;
+    font-weight: bold;
+}
+
+/***************************************************/
+/******************* RESPONSIVE! *******************/
+/***************************************************/
+@media screen and (max-width: 1250px) {
+    .tarot-info{
+        margin-left: 0px;
+    }
+    .tarot-info img{
+        width: 70%;
+    }
+    .carta{
+        margin: 0px;
+        font-size: 13px;
+    }
+    .carta img{
+        width: 70%;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+@media screen and (max-width: 970px) {
+    .nav-links li a{
+    font-size: 20px;
+    margin-right: 0px;
+    text-align: center;
+    }
+}
+@media screen and (max-width: 888px) {
+    .nav-links {
+        display: none;
+    }
+    .menu-hamburguesa {
+        visibility: visible;
+        margin-right: 15px;
+    }
+    .deco .logo{
+        width: 100%;
+        height: auto;
+    }
+    .latest-news, .main-article{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .carta{
+        margin: 0px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 555px) {
+    .latest-news{
+        display: none;
+    }
+    .carta{
+        width: calc(80% / 2);
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 440px) {
+    header{
+        font-size: 18px;
+    }
+    .deco .logo{
+        width: 90%;
+        height: auto;
+    }
+    .deco .titulo h1{
+        font-size: 50px;
+        width: 90%;
+    }
+    .deco .titulo h3{
+        font-size: 12px;
+        width: 90%;
+    }
+    .menu-hamburguesa{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
